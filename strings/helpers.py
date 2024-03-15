@@ -15,16 +15,16 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 /resume or /cresume- Resume the paused music.
 /mute or /cmute- Mute the playing music.
 /unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
+/atla or /cskip- Skip the current playing music.
 /stop or /cstop- Stop the playing music.
 /shuffle or /cshuffle- Randomly shuffles the queued playlist.
 /seek or /cseek - Forward Seek the music to your duration
 /seekback or /cseekback - Backward Seek the music to your duration
-/restart - Restart bot for your chat .
+/reload - Restart bot for your chat .
 
 
 ✅<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
+/atla or /cskip [Number(example: 3)] 
     - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
 
 ✅<u>**Loop Play:**</u>
@@ -49,7 +49,7 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 **v** stands for video play.
 **force** stands for force play.
 
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
+/oynat or /voynat or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
 
 /playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
 
@@ -59,7 +59,7 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 ✅**<u>Bot's Server Playlists:</u>**
 /playlist  - Check Your Saved Playlist On Servers.
 /deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers."""
+/oynat  - Start playing Your Saved Playlist from Servers."""
 
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
@@ -70,7 +70,7 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 /lyrics [Music Name] - Searches Lyrics for the particular Music on web.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/bul [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
 
 /player -  Get a interactive Playing Panel.
 
